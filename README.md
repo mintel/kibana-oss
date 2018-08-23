@@ -8,7 +8,7 @@ before trying to configure it (typically via `cURL` and it's REST api)
 
 ## Usage
 
-If you want to supply a custom shell script to run post-startup, then mount it at
+If you want to supply a custom shell script to run post-startupex, then mount it at
 `/opt/setup-kibana.sh`
 
 Usage is otherwise same as upstream.

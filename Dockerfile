@@ -12,4 +12,4 @@ WORKDIR /opt
 
 USER kibana
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["/usr/share/kibana/bin/kibana"]"
+CMD ["/usr/local/bin/kibana-docker"]
