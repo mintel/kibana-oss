@@ -1,8 +1,8 @@
-FROM docker.elastic.co/kibana/kibana-oss:6.6.0
+FROM docker.elastic.co/kibana/kibana-oss:6.7.2
 
 LABEL maintainer="nbadger@mintel.com" \
       vendor="Mintel" \
-      version="6.6.0" \
+      version="6.7.2" \
       vcs-url="https://github.com/mintel/kiban-oss"
 
 # Install Any extra package here
