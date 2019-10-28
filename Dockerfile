@@ -1,8 +1,8 @@
-FROM docker.elastic.co/kibana/kibana-oss:7.4.0
+FROM docker.elastic.co/kibana/kibana-oss:7.4.1
 
 LABEL maintainer="nbadger@mintel.com" \
       vendor="Mintel" \
-      version="7.4.0" \
+      version="7.4.1" \
       vcs-url="https://github.com/mintel/kiban-oss"
 
 # Install Any extra package here
